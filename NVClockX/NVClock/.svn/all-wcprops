@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/fakesmc/!svn/ver/496/HWSensors/NVClock
+END
+xf86i2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/xf86i2c.h
+END
+utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fakesmc/!svn/ver/481/HWSensors/NVClock/utils.cpp
+END
+f75375.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/f75375.cpp
+END
+nvclock.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fakesmc/!svn/ver/484/HWSensors/NVClock/nvclock.h
+END
+f75375.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/f75375.h
+END
+libc_wrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/libc_wrapper.cpp
+END
+i2c.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/i2c.cpp
+END
+xfree.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/xfree.h
+END
+i2c.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/i2c.h
+END
+w83l785r.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/w83l785r.cpp
+END
+w83781d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/w83781d.cpp
+END
+nvreg.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/nvreg.h
+END
+overclock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/overclock.cpp
+END
+backend.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/backend.cpp
+END
+nv40.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fakesmc/!svn/ver/472/HWSensors/NVClock/nv40.cpp
+END
+nv50.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fakesmc/!svn/ver/481/HWSensors/NVClock/nv50.cpp
+END
+error.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/error.cpp
+END
+xf86i2c.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/xf86i2c.cpp
+END
+lm99.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/lm99.cpp
+END
+info.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fakesmc/!svn/ver/496/HWSensors/NVClock/info.cpp
+END
+bios.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/fakesmc/!svn/ver/489/HWSensors/NVClock/bios.cpp
+END
+backend.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fakesmc/!svn/ver/430/HWSensors/NVClock/backend.h
+END
+adt7473.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/fakesmc/!svn/ver/488/HWSensors/NVClock/adt7473.cpp
+END
