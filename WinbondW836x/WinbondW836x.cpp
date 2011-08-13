@@ -410,19 +410,19 @@ const char *W836x::getModelName()
 {
 	switch (model) 
 	{
-        case W83627DHG: return "W83627DHG";
-        case W83627DHGP: return "W83627DHG-P";
-        case W83627EHF: return "W83627EHF";
-        case W83627HF: return "W83627HF";
-        case W83627THF: return "W83627THF";
-        case W83667HG: return "W83667HG";
-        case W83667HGB: return "W83667HG-B";
-        case W83687THF: return "W83687THF";
-		case W83627SF: return "W83627SF";
-        case W83697HF: return "W83697HF";
-		case W83637HF: return "W83637HF";
-        case W83627UHG: return "W83627UHG";
-        case W83697SF: return "W83697SF";
+        case W83627DHG:     return "W83627DHG";
+        case W83627DHGP:    return "W83627DHG-P";
+        case W83627EHF:     return "W83627EHF";
+        case W83627HF:      return "W83627HF";
+        case W83627THF:     return "W83627THF";
+        case W83667HG:      return "W83667HG";
+        case W83667HGB:     return "W83667HG-B";
+        case W83687THF:     return "W83687THF";
+		case W83627SF:      return "W83627SF";
+        case W83697HF:      return "W83697HF";
+		case W83637HF:      return "W83637HF";
+        case W83627UHG:     return "W83627UHG";
+        case W83697SF:      return "W83697SF";
 	}
 	
 	return "unknown";
@@ -457,7 +457,11 @@ bool W836x::start(IOService * provider)
 	
 	InfoLog("found Winbond %s", getModelName());
 	
-	OSDictionary* configuration = OSDynamicCast(OSDictionary, getProperty("Sensors Configuration"));
+    OSDictionary* list = OSDynamicCast(OSDictionary, getProperty("Sensors Configuration"));
+	OSDictionary* configuration = OSDynamicCast(OSDictionary, list->getObject(getModelName()));
+    
+    if (!configuration) 
+        configuration = OSDynamicCast(OSDictionary, getProperty("Default"));
 	
 	OSBoolean* tempin0forced = configuration ? OSDynamicCast(OSBoolean, configuration->getObject("TEMPIN0FORCED")) : 0;
 	OSBoolean* tempin1forced = configuration ? OSDynamicCast(OSBoolean, configuration->getObject("TEMPIN1FORCED")) : 0;
