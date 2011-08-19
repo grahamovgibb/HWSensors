@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		1D05AC8E13ED1F1D00EADBF6 /* Build Basic */ = {
+		1DBB0DB313FEC20800757249 /* Build All */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1D05AC9113ED1F1D00EADBF6 /* Build configuration list for PBXAggregateTarget "Build Basic" */;
+			buildConfigurationList = 1DBB0DB613FEC20800757249 /* Build configuration list for PBXAggregateTarget "Build All" */;
 			buildPhases = (
 			);
 			dependencies = (
-				1D05AC9413ED1F2B00EADBF6 /* PBXTargetDependency */,
-				1D05AC9613ED1F2B00EADBF6 /* PBXTargetDependency */,
-				1D05AC9813ED1F2B00EADBF6 /* PBXTargetDependency */,
-				1D05AC9A13ED1F2B00EADBF6 /* PBXTargetDependency */,
-				1D05AC9C13ED1F2B00EADBF6 /* PBXTargetDependency */,
-				1DA9621C13ED31430096F8A5 /* PBXTargetDependency */,
-				1DA9623913ED33AE0096F8A5 /* PBXTargetDependency */,
-				1DA9628913ED34F00096F8A5 /* PBXTargetDependency */,
-				1DA962C113ED36D40096F8A5 /* PBXTargetDependency */,
+				1DBB0DB913FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DBB13FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DBD13FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DBF13FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DC113FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DC313FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DC513FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DC713FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DC913FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DCB13FEC21200757249 /* PBXTargetDependency */,
+				1DBB0DCD13FEC21200757249 /* PBXTargetDependency */,
 			);
-			name = "Build Basic";
+			name = "Build All";
 			productName = "Build All";
 		};
 /* End PBXAggregateTarget section */
@@ -36,7 +38,6 @@
 		1D05AC0313ED0E2E00EADBF6 /* FakeSMCKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D05ABFD13ED0E2E00EADBF6 /* FakeSMCKey.cpp */; };
 		1D05AC0413ED0E2E00EADBF6 /* FakeSMCKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D05ABFE13ED0E2E00EADBF6 /* FakeSMCKey.h */; };
 		1D05AC0613ED0E8D00EADBF6 /* FakeSMC-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1D05AC0513ED0E8D00EADBF6 /* FakeSMC-Prefix.pch */; };
-		1D05AC0913ED0E9600EADBF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D05AC0713ED0E9600EADBF6 /* InfoPlist.strings */; };
 		1D05AC1813ED0FA900EADBF6 /* cpuid.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D05AC1413ED0FA900EADBF6 /* cpuid.h */; };
 		1D05AC1913ED0FA900EADBF6 /* TigerAdditionals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D05AC1513ED0FA900EADBF6 /* TigerAdditionals.cpp */; };
 		1D05AC1A13ED0FA900EADBF6 /* TigerAdditionals.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D05AC1613ED0FA900EADBF6 /* TigerAdditionals.h */; };
@@ -53,6 +54,13 @@
 		1D05AC7C13ED131B00EADBF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D05AC7A13ED131B00EADBF6 /* InfoPlist.strings */; };
 		1D05AC8913ED135400EADBF6 /* WinbondW836x.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D05AC8713ED135400EADBF6 /* WinbondW836x.cpp */; };
 		1D05AC8A13ED135400EADBF6 /* WinbondW836x.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D05AC8813ED135400EADBF6 /* WinbondW836x.h */; };
+		1D6FE3C113FEBDA700376E64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6FE3BF13FEBDA700376E64 /* InfoPlist.strings */; };
+		1D6FE3CE13FEBDF900376E64 /* X3100.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FE3CC13FEBDF900376E64 /* X3100.cpp */; };
+		1D6FE3CF13FEBDF900376E64 /* X3100.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6FE3CD13FEBDF900376E64 /* X3100.h */; };
+		1D6FE3F413FEBFF200376E64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6FE3F213FEBFF200376E64 /* InfoPlist.strings */; };
+		1D6FE3FF13FEC03100376E64 /* ACPISensors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FE3FD13FEC03100376E64 /* ACPISensors.cpp */; };
+		1D6FE40013FEC03100376E64 /* ACPISensors.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D6FE3FE13FEC03100376E64 /* ACPISensors.h */; };
+		1D6FE40313FEC11300376E64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D05AC0713ED0E9600EADBF6 /* InfoPlist.strings */; };
 		1DA9620B13ED30E40096F8A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DA9620913ED30E40096F8A5 /* InfoPlist.strings */; };
 		1DA9621913ED31280096F8A5 /* FintekF718x.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DA9621713ED31280096F8A5 /* FintekF718x.cpp */; };
 		1DA9621A13ED31280096F8A5 /* FintekF718x.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DA9621813ED31280096F8A5 /* FintekF718x.h */; };
@@ -99,68 +107,82 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D05AC9313ED1F2B00EADBF6 /* PBXContainerItemProxy */ = {
+		1DBB0DB813FEC21200757249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1D05ABE313ED0DAD00EADBF6;
 			remoteInfo = FakeSMC;
 		};
-		1D05AC9513ED1F2B00EADBF6 /* PBXContainerItemProxy */ = {
+		1DBB0DBA13FEC21200757249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1D05AC2113ED100D00EADBF6;
 			remoteInfo = IntelThermal;
 		};
-		1D05AC9713ED1F2B00EADBF6 /* PBXContainerItemProxy */ = {
+		1DBB0DBC13FEC21200757249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D05AC4013ED114600EADBF6;
-			remoteInfo = SuperIOFamily;
+			remoteGlobalIDString = 1D6FE3ED13FEBFF200376E64;
+			remoteInfo = ACPISensors;
 		};
-		1D05AC9913ED1F2B00EADBF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D05AC5A13ED123D00EADBF6;
-			remoteInfo = ITEIT87x;
-		};
-		1D05AC9B13ED1F2B00EADBF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D05AC7513ED131B00EADBF6;
-			remoteInfo = WinbondW836x;
-		};
-		1DA9621B13ED31430096F8A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DA9620413ED30E40096F8A5;
-			remoteInfo = FintekF718x;
-		};
-		1DA9623813ED33AE0096F8A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DA9622213ED331D0096F8A5;
-			remoteInfo = NSCPC8739x;
-		};
-		1DA9628813ED34F00096F8A5 /* PBXContainerItemProxy */ = {
+		1DBB0DBE13FEC21200757249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1DA9623F13ED34070096F8A5;
 			remoteInfo = NVClockX;
 		};
-		1DA962C013ED36D40096F8A5 /* PBXContainerItemProxy */ = {
+		1DBB0DC013FEC21200757249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1DA962A413ED36030096F8A5;
 			remoteInfo = RadeonX;
+		};
+		1DBB0DC213FEC21200757249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6FE3BA13FEBDA700376E64;
+			remoteInfo = X3100;
+		};
+		1DBB0DC413FEC21200757249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D05AC4013ED114600EADBF6;
+			remoteInfo = SuperIOFamily;
+		};
+		1DBB0DC613FEC21200757249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D05AC5A13ED123D00EADBF6;
+			remoteInfo = ITEIT87x;
+		};
+		1DBB0DC813FEC21200757249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D05AC7513ED131B00EADBF6;
+			remoteInfo = WinbondW836x;
+		};
+		1DBB0DCA13FEC21200757249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA9620413ED30E40096F8A5;
+			remoteInfo = FintekF718x;
+		};
+		1DBB0DCC13FEC21200757249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D05ABAF13ED0D7000EADBF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA9622213ED331D0096F8A5;
+			remoteInfo = NSCPC8739x;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -204,6 +226,18 @@
 		1D05AC8513ED134E00EADBF6 /* WinbondW836x-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WinbondW836x-Info.plist"; sourceTree = "<group>"; };
 		1D05AC8713ED135400EADBF6 /* WinbondW836x.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WinbondW836x.cpp; sourceTree = "<group>"; };
 		1D05AC8813ED135400EADBF6 /* WinbondW836x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinbondW836x.h; sourceTree = "<group>"; };
+		1D6FE3BB13FEBDA700376E64 /* X3100.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = X3100.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6FE3C013FEBDA700376E64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D6FE3C613FEBDA700376E64 /* X3100-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "X3100-Prefix.pch"; sourceTree = "<group>"; };
+		1D6FE3CA13FEBDED00376E64 /* X3100-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X3100-Info.plist"; sourceTree = "<group>"; };
+		1D6FE3CC13FEBDF900376E64 /* X3100.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = X3100.cpp; sourceTree = "<group>"; };
+		1D6FE3CD13FEBDF900376E64 /* X3100.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = X3100.h; sourceTree = "<group>"; };
+		1D6FE3EE13FEBFF200376E64 /* ACPISensors.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACPISensors.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6FE3F313FEBFF200376E64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D6FE3F913FEBFF200376E64 /* ACPISensors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACPISensors-Prefix.pch"; sourceTree = "<group>"; };
+		1D6FE3FD13FEC03100376E64 /* ACPISensors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ACPISensors.cpp; sourceTree = "<group>"; };
+		1D6FE3FE13FEC03100376E64 /* ACPISensors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPISensors.h; sourceTree = "<group>"; };
+		1D6FE40113FEC05500376E64 /* ACPISensors-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ACPISensors-Info.plist"; sourceTree = "<group>"; };
 		1DA9620513ED30E40096F8A5 /* FintekF718x.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FintekF718x.kext; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DA9620A13ED30E40096F8A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DA9621013ED30E40096F8A5 /* FintekF718x-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FintekF718x-Prefix.pch"; sourceTree = "<group>"; };
@@ -297,6 +331,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D6FE3B613FEBDA700376E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FE3E913FEBFF200376E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DA9620013ED30E40096F8A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,6 +399,8 @@
 				1DA9622313ED331D0096F8A5 /* NSCPC8739x.kext */,
 				1DA9624013ED34070096F8A5 /* NVClockX.kext */,
 				1DA962A513ED36030096F8A5 /* RadeonX.kext */,
+				1D6FE3BB13FEBDA700376E64 /* X3100.kext */,
+				1D6FE3EE13FEBFF200376E64 /* ACPISensors.kext */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -435,6 +485,8 @@
 				1D05AC4213ED114600EADBF6 /* SuperIOFamily */,
 				1DA9624113ED34070096F8A5 /* NVClockX */,
 				1DA962A613ED36030096F8A5 /* RadeonX */,
+				1D6FE3BC13FEBDA700376E64 /* X3100 */,
+				1D6FE3EF13FEBFF200376E64 /* ACPISensors */,
 			);
 			name = "Plug-Ins";
 			sourceTree = "<group>";
@@ -508,6 +560,46 @@
 				1D05AC8513ED134E00EADBF6 /* WinbondW836x-Info.plist */,
 				1D05AC7A13ED131B00EADBF6 /* InfoPlist.strings */,
 				1D05AC8113ED131B00EADBF6 /* WinbondW836x-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D6FE3BC13FEBDA700376E64 /* X3100 */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FE3CD13FEBDF900376E64 /* X3100.h */,
+				1D6FE3CC13FEBDF900376E64 /* X3100.cpp */,
+				1D6FE3BD13FEBDA700376E64 /* Supporting Files */,
+			);
+			path = X3100;
+			sourceTree = "<group>";
+		};
+		1D6FE3BD13FEBDA700376E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FE3CA13FEBDED00376E64 /* X3100-Info.plist */,
+				1D6FE3BF13FEBDA700376E64 /* InfoPlist.strings */,
+				1D6FE3C613FEBDA700376E64 /* X3100-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D6FE3EF13FEBFF200376E64 /* ACPISensors */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FE3FE13FEC03100376E64 /* ACPISensors.h */,
+				1D6FE3FD13FEC03100376E64 /* ACPISensors.cpp */,
+				1D6FE3F013FEBFF200376E64 /* Supporting Files */,
+			);
+			path = ACPISensors;
+			sourceTree = "<group>";
+		};
+		1D6FE3F013FEBFF200376E64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FE40113FEC05500376E64 /* ACPISensors-Info.plist */,
+				1D6FE3F213FEBFF200376E64 /* InfoPlist.strings */,
+				1D6FE3F913FEBFF200376E64 /* ACPISensors-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -678,6 +770,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D6FE3B713FEBDA700376E64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FE3CF13FEBDF900376E64 /* X3100.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FE3EA13FEBFF200376E64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FE40013FEC03100376E64 /* ACPISensors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DA9620113ED30E40096F8A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -819,6 +927,44 @@
 			productReference = 1D05AC7613ED131B00EADBF6 /* WinbondW836x.kext */;
 			productType = "com.apple.product-type.kernel-extension";
 		};
+		1D6FE3BA13FEBDA700376E64 /* X3100 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6FE3C713FEBDA700376E64 /* Build configuration list for PBXNativeTarget "X3100" */;
+			buildPhases = (
+				1D6FE3B513FEBDA700376E64 /* Sources */,
+				1D6FE3B613FEBDA700376E64 /* Frameworks */,
+				1D6FE3B713FEBDA700376E64 /* Headers */,
+				1D6FE3B813FEBDA700376E64 /* Resources */,
+				1D6FE3B913FEBDA700376E64 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = X3100;
+			productName = X3100;
+			productReference = 1D6FE3BB13FEBDA700376E64 /* X3100.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+		1D6FE3ED13FEBFF200376E64 /* ACPISensors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6FE3FA13FEBFF200376E64 /* Build configuration list for PBXNativeTarget "ACPISensors" */;
+			buildPhases = (
+				1D6FE3E813FEBFF200376E64 /* Sources */,
+				1D6FE3E913FEBFF200376E64 /* Frameworks */,
+				1D6FE3EA13FEBFF200376E64 /* Headers */,
+				1D6FE3EB13FEBFF200376E64 /* Resources */,
+				1D6FE3EC13FEBFF200376E64 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACPISensors;
+			productName = ACPISensors;
+			productReference = 1D6FE3EE13FEBFF200376E64 /* ACPISensors.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
 		1DA9620413ED30E40096F8A5 /* FintekF718x */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DA9621313ED30E40096F8A5 /* Build configuration list for PBXNativeTarget "FintekF718x" */;
@@ -917,14 +1063,16 @@
 			targets = (
 				1D05ABE313ED0DAD00EADBF6 /* FakeSMC */,
 				1D05AC2113ED100D00EADBF6 /* IntelThermal */,
+				1D6FE3ED13FEBFF200376E64 /* ACPISensors */,
+				1DA9623F13ED34070096F8A5 /* NVClockX */,
+				1DA962A413ED36030096F8A5 /* RadeonX */,
+				1D6FE3BA13FEBDA700376E64 /* X3100 */,
 				1D05AC4013ED114600EADBF6 /* SuperIOFamily */,
 				1D05AC5A13ED123D00EADBF6 /* ITEIT87x */,
 				1D05AC7513ED131B00EADBF6 /* WinbondW836x */,
 				1DA9620413ED30E40096F8A5 /* FintekF718x */,
 				1DA9622213ED331D0096F8A5 /* NSCPC8739x */,
-				1DA9623F13ED34070096F8A5 /* NVClockX */,
-				1DA962A413ED36030096F8A5 /* RadeonX */,
-				1D05AC8E13ED1F1D00EADBF6 /* Build Basic */,
+				1DBB0DB313FEC20800757249 /* Build All */,
 			);
 		};
 /* End PBXProject section */
@@ -934,9 +1082,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D05AC0913ED0E9600EADBF6 /* InfoPlist.strings in Resources */,
 				1DA9625013ED34430096F8A5 /* License.txt in Resources */,
 				1DB3229A13ED8DFF008476A3 /* GPL.txt in Resources */,
+				1D6FE40313FEC11300376E64 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -969,6 +1117,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D05AC7C13ED131B00EADBF6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FE3B813FEBDA700376E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FE3C113FEBDA700376E64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FE3EB13FEBFF200376E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FE3F413FEBFF200376E64 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1037,6 +1201,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1D05AC7413ED131B00EADBF6 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FE3B913FEBDA700376E64 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FE3EC13FEBFF200376E64 /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1117,6 +1295,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D6FE3B513FEBDA700376E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FE3CE13FEBDF900376E64 /* X3100.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FE3E813FEBFF200376E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FE3FF13FEC03100376E64 /* ACPISensors.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DA961FF13ED30E40096F8A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1169,50 +1363,60 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D05AC9413ED1F2B00EADBF6 /* PBXTargetDependency */ = {
+		1DBB0DB913FEC21200757249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1D05ABE313ED0DAD00EADBF6 /* FakeSMC */;
-			targetProxy = 1D05AC9313ED1F2B00EADBF6 /* PBXContainerItemProxy */;
+			targetProxy = 1DBB0DB813FEC21200757249 /* PBXContainerItemProxy */;
 		};
-		1D05AC9613ED1F2B00EADBF6 /* PBXTargetDependency */ = {
+		1DBB0DBB13FEC21200757249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1D05AC2113ED100D00EADBF6 /* IntelThermal */;
-			targetProxy = 1D05AC9513ED1F2B00EADBF6 /* PBXContainerItemProxy */;
+			targetProxy = 1DBB0DBA13FEC21200757249 /* PBXContainerItemProxy */;
 		};
-		1D05AC9813ED1F2B00EADBF6 /* PBXTargetDependency */ = {
+		1DBB0DBD13FEC21200757249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D05AC4013ED114600EADBF6 /* SuperIOFamily */;
-			targetProxy = 1D05AC9713ED1F2B00EADBF6 /* PBXContainerItemProxy */;
+			target = 1D6FE3ED13FEBFF200376E64 /* ACPISensors */;
+			targetProxy = 1DBB0DBC13FEC21200757249 /* PBXContainerItemProxy */;
 		};
-		1D05AC9A13ED1F2B00EADBF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1D05AC5A13ED123D00EADBF6 /* ITEIT87x */;
-			targetProxy = 1D05AC9913ED1F2B00EADBF6 /* PBXContainerItemProxy */;
-		};
-		1D05AC9C13ED1F2B00EADBF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1D05AC7513ED131B00EADBF6 /* WinbondW836x */;
-			targetProxy = 1D05AC9B13ED1F2B00EADBF6 /* PBXContainerItemProxy */;
-		};
-		1DA9621C13ED31430096F8A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DA9620413ED30E40096F8A5 /* FintekF718x */;
-			targetProxy = 1DA9621B13ED31430096F8A5 /* PBXContainerItemProxy */;
-		};
-		1DA9623913ED33AE0096F8A5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DA9622213ED331D0096F8A5 /* NSCPC8739x */;
-			targetProxy = 1DA9623813ED33AE0096F8A5 /* PBXContainerItemProxy */;
-		};
-		1DA9628913ED34F00096F8A5 /* PBXTargetDependency */ = {
+		1DBB0DBF13FEC21200757249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1DA9623F13ED34070096F8A5 /* NVClockX */;
-			targetProxy = 1DA9628813ED34F00096F8A5 /* PBXContainerItemProxy */;
+			targetProxy = 1DBB0DBE13FEC21200757249 /* PBXContainerItemProxy */;
 		};
-		1DA962C113ED36D40096F8A5 /* PBXTargetDependency */ = {
+		1DBB0DC113FEC21200757249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1DA962A413ED36030096F8A5 /* RadeonX */;
-			targetProxy = 1DA962C013ED36D40096F8A5 /* PBXContainerItemProxy */;
+			targetProxy = 1DBB0DC013FEC21200757249 /* PBXContainerItemProxy */;
+		};
+		1DBB0DC313FEC21200757249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6FE3BA13FEBDA700376E64 /* X3100 */;
+			targetProxy = 1DBB0DC213FEC21200757249 /* PBXContainerItemProxy */;
+		};
+		1DBB0DC513FEC21200757249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D05AC4013ED114600EADBF6 /* SuperIOFamily */;
+			targetProxy = 1DBB0DC413FEC21200757249 /* PBXContainerItemProxy */;
+		};
+		1DBB0DC713FEC21200757249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D05AC5A13ED123D00EADBF6 /* ITEIT87x */;
+			targetProxy = 1DBB0DC613FEC21200757249 /* PBXContainerItemProxy */;
+		};
+		1DBB0DC913FEC21200757249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D05AC7513ED131B00EADBF6 /* WinbondW836x */;
+			targetProxy = 1DBB0DC813FEC21200757249 /* PBXContainerItemProxy */;
+		};
+		1DBB0DCB13FEC21200757249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA9620413ED30E40096F8A5 /* FintekF718x */;
+			targetProxy = 1DBB0DCA13FEC21200757249 /* PBXContainerItemProxy */;
+		};
+		1DBB0DCD13FEC21200757249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA9622213ED331D0096F8A5 /* NSCPC8739x */;
+			targetProxy = 1DBB0DCC13FEC21200757249 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1253,6 +1457,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				1D05AC7B13ED131B00EADBF6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D6FE3BF13FEBDA700376E64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6FE3C013FEBDA700376E64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D6FE3F213FEBFF200376E64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6FE3F313FEBFF200376E64 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1346,6 +1566,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 3.1.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1408,6 +1629,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1470,6 +1692,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1532,6 +1755,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.1d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1594,6 +1818,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1614,17 +1839,125 @@
 			};
 			name = Release;
 		};
-		1D05AC8F13ED1F1D00EADBF6 /* Debug */ = {
+		1D6FE3C813FEBDA700376E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "X3100/X3100-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "X3100/X3100-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_NAME = org.slice.X3100;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = kext;
 			};
 			name = Debug;
 		};
-		1D05AC9013ED1F1D00EADBF6 /* Release */ = {
+		1D6FE3C913FEBDA700376E64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "X3100/X3100-Prefix.pch";
+				GCC_VERSION = 4.2;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "X3100/X3100-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_NAME = org.slice.X3100;
+				MODULE_VERSION = 1.0.0d1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1D6FE3FB13FEBFF200376E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACPISensors/ACPISensors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ACPISensors/ACPISensors-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_NAME = org.slice.ACPISensors;
+				MODULE_VERSION = 1.0.0d1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		1D6FE3FC13FEBFF200376E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACPISensors/ACPISensors-Prefix.pch";
+				GCC_VERSION = 4.2;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "ACPISensors/ACPISensors-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULE_NAME = org.slice.ACPISensors;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = kext;
 			};
 			name = Release;
 		};
@@ -1670,6 +2003,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1732,6 +2066,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1794,6 +2129,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.1d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1855,6 +2191,7 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1871,6 +2208,20 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+		1DBB0DB413FEC20800757249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DBB0DB513FEC20800757249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -1931,11 +2282,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D05AC9113ED1F1D00EADBF6 /* Build configuration list for PBXAggregateTarget "Build Basic" */ = {
+		1D6FE3C713FEBDA700376E64 /* Build configuration list for PBXNativeTarget "X3100" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D05AC8F13ED1F1D00EADBF6 /* Debug */,
-				1D05AC9013ED1F1D00EADBF6 /* Release */,
+				1D6FE3C813FEBDA700376E64 /* Debug */,
+				1D6FE3C913FEBDA700376E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6FE3FA13FEBFF200376E64 /* Build configuration list for PBXNativeTarget "ACPISensors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6FE3FB13FEBFF200376E64 /* Debug */,
+				1D6FE3FC13FEBFF200376E64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1975,6 +2335,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		1DBB0DB613FEC20800757249 /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBB0DB413FEC20800757249 /* Debug */,
+				1DBB0DB513FEC20800757249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
